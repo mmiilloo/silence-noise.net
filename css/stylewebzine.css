@@ -53,6 +53,28 @@ width: 100%;
   padding: 100px;
   z-index: 2;
 }
+
+/* a:link {
+    color: rgba(0, 0, 255, 1);
+    display: block;
+}
+
+a:visited {
+    color: rgba(0, 0, 255, .5);
+} */
+
+a:hover {
+    color: rgba(0, 0, 255, .75);
+    background-color: rgba(255, 255, 0, .75);
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
+}
+
 header {
   padding-left: 10px;
   font-size: 90px;
@@ -62,4 +84,15 @@ header {
   color: rgba(0, 255, 255, 1);
   width: 100%;
   z-index: -1;
+}
+
+footer {
+  padding-right: 10px;
+  font-size: 30px;
+  right: 20px;
+  position: fixed;
+  top: 30px;
+  color: rgba(0, 255, 255, 1);
+  width: 100%;
+  z-index: 20;
 }
